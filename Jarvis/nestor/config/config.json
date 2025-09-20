@@ -1,0 +1,9 @@
+{
+  "provider": "local",
+  "data_path": "toolkit/data/sitcom.jsonl",
+  "logging": {
+    "file": "logs/logs.txt",
+    "level": "INFO",
+    "echo": true
+  }
+}

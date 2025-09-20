@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "emotions": "emotions_with_triggers.sample.json",
+    "videos_dir": "./videos"
+  },
+  "audio": {
+    "input": "console",
+    "stt_backend": "speech_recognition",
+    "tts_backend": "pyttsx3",
+    "voice": null,
+    "rate": 175
+  },
+  "routing": {
+    "use_router": true,
+    "min_score_to_trigger": 1.0
+  },
+  "ui": {
+    "print_logs": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "llm": {
+    "provider": "lmstudio",
+    "base_url": "http://localhost:1234/v1",
+    "model": "openai/gpt-oss-20b",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens": 512
+  },
+  "logging": {
+    "file": "logs/logs.txt",
+    "level": "INFO",
+    "echo": true
+  },
+  "paths": {
+    "sessions_dir": "data/sessions"
+  },
+  "style": {
+    "compact_default": true,
+    "target_sentences": 2,
+    "emoji": true
+  }
+}
