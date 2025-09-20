@@ -60,3 +60,8 @@ private_*.json
 node_modules/
 dist/
 build/
+Jarvis/videos/
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.exe
