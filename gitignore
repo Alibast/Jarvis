@@ -1,0 +1,62 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements
+.venv/
+venv/
+env/
+ENV/
+
+# Fichiers temporaires
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Caches
+.cache/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# ---- OS ----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Éditeurs ----
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# ---- Projet Nestor ----
+# Fichiers internes non destinés au public
+config.json
+exemple.json
+tests/
+*.preview.txt
+
+# Backups automatiques
+*.bak.json
+
+# Données sensibles / privées
+# (tu peux ajouter ici tout fichier que tu veux garder hors repo)
+secrets.json
+private_*.json
+
+# ---- Node / Web (si tu fais un site plus tard) ----
+node_modules/
+dist/
+build/
